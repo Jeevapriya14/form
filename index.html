@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="icon" href="/images/login.jpeg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="border">
+        <h1>REGISTER</h1>
+        <form autocomplete="on">
+            <div class="form">
+                <label for="fname">FIRST NAME: </label>
+                <input type="text" id="fname" size="15" maxlength="15">
+            </div>
+            <div class="form">
+                <label for="lname">LAST NAME: </label>
+                <input type="text" id="lname" size="10" maxlength="10">
+            </div>
+            <div class="form">
+                <label for="email">EMAIL: </label>
+                <input type="email" id="email" maxlength="20">
+            </div>
+            <div class="form">
+                <div class="gen">
+                <p>GENDER </p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">MALE</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">FEMALE</label>
+            </div>
+        </div>
+        <div class="form">
+            <label for="phn">PHONE NUMBER: </label>
+            <input type="number" id="phn" size="10" maxlength="10">
+        </div>
+        <div class="form">
+           COMMENTS:   <textarea rows="5" cols="30">   </textarea>
+        </div>
+        
+        <div class="form">
+            I'm a/an?<input list="who">
+            <datalist id="who">
+                <option value="Student"></option>
+                <option value="Employee"></option>
+                <option value="Other"></option>
+            </datalist>
+        </div>
+        <div class="form">
+            <div class="dob">
+                <label for="dob">DATE OF BIRTH: 
+                <input type="date" id="dob">
+            </label>
+            </div>
+        </div>
+        <div class="form">
+            <div class="check">
+                <label for="check">
+                <input type="checkbox" id="check">
+                I ensure that I have provided all the details correctly.</label>
+            </div>
+        </div>
+        <div class="form">
+            <div class="sub">
+            
+            <button type="button" onclick="alert('DO YOU WANT TO SUBMIT IT?')">SUBMIT</button>
+        </div>
+        
+        <div class="form">
+            <div class="reset">
+                <button type="reset">RESET</button>
+            </div>
+
+        </div>
+    </div>
+        
+
+        
+        </form>
+        <div class="login">
+            <p>Want to login/sign in?</p><a href="signin.html" target="_self">Sign in</a>
+        </div>
+    </div>
+    
+</body>
+</html>
